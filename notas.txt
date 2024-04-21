@@ -1,0 +1,18 @@
+colores
+verde 1
+#339933
+
+verde 2
+#99cc33
+
+amarillo
+#ffff66
+
+negro
+#000000
+
+gris
+#666666
+
+img nosotros
+981x794
