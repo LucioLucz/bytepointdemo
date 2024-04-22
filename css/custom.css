@@ -73,14 +73,8 @@ h1.head-title {
 .hero-area .contents {
   padding: 180px 0px;
 }
-@media (min-width: 320px) and (max-width: 480px) {
-  .bg-inverse {
-    background: var(--green);
-  }
-  .hero-area .contents {
-    padding: 120px 0px 40px 0px;
-  }
-}
+
+
 #services .section-title,
 h2 .section-title {
   font-weight: 600;
@@ -288,4 +282,16 @@ h1 {
 }
 .back-to-top i {
   font-weight: 900;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .bg-inverse {
+    background: var(--green);
+  }
+  .hero-area .contents {
+    padding: 120px 0px 40px 0px;
+  }
+  #footer-Content {
+    background: linear-gradient(0deg, var(--white) 5%, var(--green) 22%) !important;
+  }
 }
