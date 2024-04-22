@@ -294,4 +294,9 @@ h1 {
   #footer-Content {
     background: linear-gradient(0deg, var(--white) 5%, var(--green) 22%) !important;
   }
+  @media (min-width: 320px) and (max-width: 480px) {
+    .section-header .desc-text p {
+        font-size: 1.05rem;
+    }
+}
 }
