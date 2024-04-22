@@ -298,5 +298,8 @@ h1 {
     .section-header .desc-text p {
         font-size: 1.05rem;
     }
+  }
 }
+.navbar-expand-md .navbar-nav .nav-link {
+  font-size: 1.1rem !important;
 }
