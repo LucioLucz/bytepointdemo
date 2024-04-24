@@ -245,7 +245,7 @@ h1 {
 .navbar-expand-md .navbar-nav .nav-link.active:before {
   background: var(--black);
 }
-.services-item{
+.services-item.card1{
     /* background-image: url("../img/cardExample.jpg"); */
     background-image: linear-gradient(
         to bottom left,
@@ -254,6 +254,24 @@ h1 {
       ),
       url("../img/cardExampleLow.jpg");
       background-size: cover;
+}
+.services-item.card2{
+  background-image: linear-gradient(
+      to bottom left,
+      rgba(245, 246, 252, 1),
+      transparent
+    ),
+    url("../img/card-bg-finan.jpeg");
+    background-size: cover;
+}
+.services-item.card3{
+  background-image: linear-gradient(
+      to bottom left,
+      rgba(245, 246, 252, 1),
+      transparent
+    ),
+    url("../img/logistica.jpg");
+    background-size: cover;
 }
 .services-card-text{
     backdrop-filter: blur(12px);
@@ -302,4 +320,7 @@ h1 {
 }
 .navbar-expand-md .navbar-nav .nav-link {
   font-size: 1.1rem !important;
+}
+.services-card-text h4{
+  text-transform: uppercase;
 }
